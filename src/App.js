@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./styles.css";
 
 const upDb = {
-  lucknow: [
+  Lucknow: [
     {
       name: "Rumi darwaza",
       desciption:
@@ -23,7 +23,7 @@ const upDb = {
       poster: "http://uptourism.gov.in/images/banner/la_martiniere.jpg"
     }
   ],
-  prayagraj: [
+  Prayagraj: [
     {
       name: "Sangam",
       desciption:
@@ -42,6 +42,22 @@ const upDb = {
         "Prayag in modern-day Prayagraj is believed to be the most important pilgrimage centre for Hindus. Traditionally river confluences are regarded as auspicious places, but in Sangam, the significance of the confluence is most pious because here, the holy Ganga, Yamuna and the mythical Saraswati meet to become one.",
       poster:
         "http://uptourism.gov.in/site/writereaddata/uploadedImages/Image/I_201505021701097884.jpg"
+    }
+  ],
+  Ayodhya: [
+    {
+      name: "Ram ki Paidi",
+      desciption:
+        "A series of ghats set on the banks of river Saryu that serves as a platform to devotees who come here to wash away their sins. It also has lush green gardens surrounded by temples. The river front brings forth an outstanding panorama especially in floodlit night. These serve as platforms to devotees who, it is believed, come to wash away their sins by taking a dip in the holy river. Saryu provides a regular supply of water for the ghats and is maintained by the Irrigation Department, Government of Uttar Pradesh.",
+      poster:
+        "http://uptourism.gov.in/site/writereaddata/siteContent/202007311758225717Ram-Paidi.jpg"
+    },
+    {
+      name: "Hanumangarhi",
+      desciption:
+        "Constructed in the shape of a fort and accessed by a flight of seventy - six steps, the 10th century ancient temple nestles in the centre of the pilgrim town. It has circular fortifications in each corner and is believed to be the spot where Lord Hanuman resided in a cave and protected the town. The temple has a golden idol of Lord Hanuman; it is counted amongst the most revered sites in Ayodhya",
+      poster:
+        "http://uptourism.gov.in/site/writereaddata/siteContent/202007311738489761hanumanji.jpg"
     }
   ]
 }; //eg { name:"", desciption:"",poster:""}

@@ -4,9 +4,10 @@
 }
 h1 {
   color: #f59e0b;
-  background-color: #f3f4f6;
+  background-color: #fde68a;
   border-radius: 2rem;
   padding: 1rem;
+  border: 2px solid;
 }
 body {
   margin: none;
@@ -15,11 +16,12 @@ body {
 }
 button {
   cursor: pointer;
-  background: #e5e7eb;
+  background: #fde68a;
   border-radius: 0.5rem;
   padding: 0.5rem 1rem;
-  border: 1px solid black;
+  border: 2px solid #2563eb;
   margin: 1rem 0.3rem;
+  font-weight: bold;
 }
 .list-no-bullet {
   list-style: none;
@@ -30,7 +32,8 @@ li {
   border: 1px solid #d1d5db;
   width: 70%;
   margin: 1rem 1rem;
-  border-radius: 1rem;
+  border-radius: 2rem;
+  background-color: #f59e0b;
 }
 .area {
   padding: 1rem;
